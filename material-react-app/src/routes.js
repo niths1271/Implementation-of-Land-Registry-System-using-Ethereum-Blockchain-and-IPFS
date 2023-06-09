@@ -22,8 +22,6 @@
 
 // Material Dashboard 2 React layouts
 import Dashboard from "layouts/dashboard";
-import Tables from "layouts/tables";
-import Transaction from "layouts/billing";
 //import Notifications from "layouts/notifications";
 //import Profile from "layouts/profile";
 
@@ -76,15 +74,6 @@ const routes = [
     route: "/Add-Land",
     component: <AddLand />,
   },
-  // {
-  //   boolAdmin:false,
-  //   type: "collapse",
-  //   name: "Transactions",
-  //   key: "transactions",
-  //   icon: <Icon fontSize="small">receipt_long</Icon>,
-  //   route: "/Transaction",
-  //   component: <Transaction />,
-  // },
   {
     boolAdmin:false,
     type: "auth",
