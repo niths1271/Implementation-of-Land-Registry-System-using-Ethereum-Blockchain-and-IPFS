@@ -50,9 +50,6 @@ using that.
 - Make sure your connected to the right blockchain network.
 
 
-[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen.
-
-
    [node.js]: <http://nodejs.org>
    [express]: <http://expressjs.com>
    [React JS]: <https://react.dev/>
