@@ -1,32 +1,63 @@
 # Implementation of Land Registry System using Ethereum Blockchain and IPFS
 
------------------------------------------------------------------------------------------------------
-Frontend application(React.js):
+A decentralized application is created, and its performance is assessed by evaluating costs and execution time. By leveraging the inherent qualities of blockchain, we aim to implement it within India’s Land Registration System, an area notorious for fraudulent activities. This integration results in a more advanced system that facilitates efficient and trustworthy transactions for activities such as buying and selling.
 
-1)Make sure node js is installed in your environment.
-2)Now go inside directory material-react-app and run the command `npm install` to install all the
-necessary npm libraries.
-3)Use the command `npm start` to start the frontend application
-4)The application by default will run at port 3000.
-5)Please make sure .env file is configured properly before running the application as it contains all
+## Tech
+
+We use a number of open source projects to work properly:
+
+- [React JS] - HTML enhanced for web apps!
+- [node.js] - evented I/O for the backend
+- [Express] - fast node.js network app framework
+- [Metamask] - Crypto Currency wallet for blockchain applications.
+- [Truffle ] - Development framework for Ethereum
+- [Ganache] - Used to create Ethereum development ecosystem to facilitate the development, testing, and deployment of smart contracts.
+- [Solidity] - Programming language designed specifically for developing smart contracts on the Ethereum blockchain and other blockchain platforms.
+- [Infura] - Infura for IPFS storage.
+
+
+## Installation(Frontend)
+Install the dependencies and devDependencies and start the server.
+
+```sh
+cd material-react-app
+npm install
+npm start
+```
+
+Note:
+- The application by default will run at port 3000.
+- Please make sure .env file is configured properly before running the application as it contains all
 the details about ports,api token,secret keys etc.
 
-------------------------------------------------------------------------------------------------------
-Backend application:
+## Installation(Backend)
 
-1)Make sure node js is installed in your enviroment
-2)Install Ganache in your environment which helps us to create a local blockchain network
-3)Now go inside the Blockchain directory and run the command `npm install` to install all the
-necessary npm libraries.
-4)Run the command `truffle compile` to compile the smart contracts.
-5)Then run the command `truffle migrate` to deploy the smart contracts into the blockchain network.
+Install Ganache in your environment which helps us to create a local blockchain network
 
------------------------------------------------------------------------------------------------------
-
---By default 10 accounts will be provided in local blockchain network by ganache.
---Make sure metamask extension is installed in your browsers.
---Metamask wallet can be used to store the private keys of all blockchain accounts and sign all our
+```sh
+cd blockchain
+npm install
+truffle compile 
+truffle migrate
+```
+Note:
+- By default 10 accounts will be provided in local blockchain network by ganache.
+- Make sure metamask extension is installed in your browsers.
+- Metamask wallet can be used to store the private keys of all blockchain accounts and sign all our
 transactions.
---To add an account into metamask just get the private key of your account and access your account 
+- To add an account into metamask just get the private key of your account and access your account 
 using that.
---Make sure your connected to the right blockchain network.
+- Make sure your connected to the right blockchain network.
+
+
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen.
+
+
+   [node.js]: <http://nodejs.org>
+   [express]: <http://expressjs.com>
+   [React JS]: <https://react.dev/>
+   [Metamask]: <https://metamask.io/>
+   [Truffle ]: <https://archive.trufflesuite.com/>
+   [Ganache]: <https://archive.trufflesuite.com/ganache/>
+   [Solidity]: <https://soliditylang.org/>
+   [Infura]: <https://www.infura.io/>
